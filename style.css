@@ -143,7 +143,9 @@
     aspect-ratio: 9 / 16;
     height: 100vh;
     object-fit: cover;
-  }
+
+      @import url('https://fonts.googleapis.com/css2?family=Nata+Sans:wght@100..900&display=swap');
+  
 }
 
 
