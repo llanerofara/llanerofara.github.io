@@ -16,10 +16,12 @@
 
     .subtitulo{
       font-family: "Nata Sans", sans-serif;
-      text-align: center;
       font-weight: 900;
       letter-spacing: -0.07rem;
       color: rgb(20, 20, 24);
+        text-align: center;
+        margin-left: 5rem;
+        margin-right: 5rem;
     }
 
 .contenido{
