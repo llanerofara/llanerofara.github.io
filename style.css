@@ -6,7 +6,7 @@
       font-weight: 650;
     }
     footer {
-      text-align: center;
+      text-align: relative;
       color: #fff;
       background-color: rgb(20,20,24);
       height: 5rem;
