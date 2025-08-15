@@ -15,23 +15,21 @@
     }
 
     .subtitulo{
+      font-family: "Nata Sans", sans-serif;
       text-align: center;
-        font-family: "Nata Sans";
       font-weight: 900;
       letter-spacing: -0.07rem;
       color: rgb(20, 20, 24);
-        margin-left: 5rem;
-        margin-right: 5rem;
     }
 
 .contenido{
- text-align: center;
-    font-family: "Nata Sans";
+  font-family: "Nata Sans", sans-serif;
   letter-spacing:0.1rem;
   font-style: light;
   font-size: 1.5rem;
   margin-left: 5rem;
   margin-right: 5rem;
+  text-align: center;
   color: #232323;
 }
 
@@ -110,14 +108,7 @@
     }
 
     .subtitulo{
-      font-family: "Nata Sans", sans-serif;
-      font-weight: 900;
-      letter-spacing: -0.07rem;
-      color: rgb(20, 20, 24);
-        text-align: center;
-        margin-left: 5rem;
-        margin-right: 5rem;
-        align-content: center;
+      text-align: center;
     }
 
       footer {
@@ -127,8 +118,7 @@
         text-align: center;
         color: #fff;
         font-size: 1rem;
-        letter-spacing: 0.5px; 
-          font-family: "Roboto Condensed", sans-serif;
+        letter-spacing: 0.5px;  
       }
 
       header {
@@ -153,10 +143,7 @@
     aspect-ratio: 9 / 16;
     height: 100vh;
     object-fit: cover;
-
-      @import url('https://fonts.googleapis.com/css2?family=Nata+Sans:wght@100..900&display=swap');
-      @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
-  
+  }
 }
 
 
