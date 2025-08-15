@@ -6,7 +6,7 @@
       font-weight: 650;
     }
     footer {
-      text-align: relative;
+      text-align: center;
       color: #fff;
       background-color: rgb(20,20,24);
       height: 5rem;
@@ -15,11 +15,11 @@
     }
 
     .subtitulo{
-      font-family: "Nata Sans", sans-serif;
+      text-align: center;
+        font-family: "Nata Sans", sans-serif;
       font-weight: 900;
       letter-spacing: -0.07rem;
       color: rgb(20, 20, 24);
-        text-align: center;
         margin-left: 5rem;
         margin-right: 5rem;
     }
