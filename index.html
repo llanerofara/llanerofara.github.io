@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nata+Sans:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <style>
-    body {
+  body {
       margin: 0;
       background-color: #ffffff;
       font-family: 'Roboto Condensed', sans-serif;
@@ -24,6 +24,10 @@
       padding: 1rem 1rem;
       background: rgb(20, 20, 24);
       box-shadow: 0 0px 10px rgba(20,20,24);
+    }
+
+    html {
+
     }
 
     .logo {
@@ -44,6 +48,7 @@
       font-size: 1rem;
       position: relative;
       text-transform: uppercase;
+      margin-right: 15px;
     }
 
     nav a::after {
@@ -80,6 +85,7 @@
       letter-spacing: -0.07rem;
       color: rgb(20, 20, 24);
       font-size: 3rem;
+      color: #141418;
     }
 
 .subtitulo2 {
@@ -87,8 +93,8 @@
       text-align: center;
       font-weight: 900;
       letter-spacing: -0.07rem;
-      color: #8a8a8a;
       font-size: 3rem;
+      color: #141418;
       
         line-height: 0.9em;
     }
@@ -108,7 +114,7 @@
       background-color: rgb(20,20,24);
       height: 5rem;
       align-content: center;
-      letter-spacing: 0.5px;
+      letter-spacing: 1.5px;
     }
 
     @media (max-width: 720px) {
@@ -125,6 +131,7 @@
         margin-top: 1rem;
         align-items: center;
         margin-left: 0;
+        margin-right: 33px; /*margen para que se centre el nav*/
       }
 
       nav a {
@@ -149,16 +156,22 @@
       .subtitulo {
         text-align: center;
         align-content: center;
+        margin-top: 0rem;
       }
 
 .subtitulo2 {
         text-align: center;
         align-content: center;
         line-height: 0.9em;
+        margin-top: 8rem;
       }
 
       footer {
         font-size: 1rem;
+        letter-spacing: 0.5rem,
+      }
+      .logo {
+        margin-right: 33px; /*margen para que se centre poco mas el logo*/
       }
     }
   </style>
